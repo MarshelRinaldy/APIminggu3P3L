@@ -12,7 +12,7 @@ class BahanBaku extends Model
     use HasFactory;
     protected $table = 'bahan_baku';
 
-    protected $fillable = ['nama_bahan_baku', 'stok_bahan_baku', 'satuan_bahan_baku', 'harga_bahan_baku'];
+    protected $fillable = ['nama_bahan_baku', 'stok_bahan_baku', 'satuan_bahan_baku', 'harga_bahan_baku', 'total_digunakan'];
 
     public function bahanBakuUsages()
     {
